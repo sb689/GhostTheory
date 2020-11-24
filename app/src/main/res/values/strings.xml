@@ -2,4 +2,59 @@
     <string name="app_name">GhostTheory</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_play_text">play</string>
+    <string name="submit_button">Submit</string>
+
+    <string-array name="questions">
+        <item>Why People dress up as demon on Halloween?</item>
+        <item>What is the real meaning of the word "Witch"?</item>
+        <item>Where did Tricks for treats originate?</item>
+        <item>What is the most favoured treat for Halloween?</item>
+        <item>People of Ireland and Scotland carve ___ during Halloween-</item>
+        <item>Mexico celebrates this event instead of Halloween - </item>
+
+    </string-array>
+
+    <string-array name="ans_1">
+        <item>To ward off the evil spirits</item>
+        <item>To have fun</item>
+        <item>To educate children</item>
+    </string-array>
+
+    <string-array name="ans_2">
+        <item>Wise woman</item>
+        <item>A lady who performs black magic</item>
+        <item>A lady who lives in the forest</item>
+    </string-array>
+
+    <string-array name="ans_3">
+        <item>Europe</item>
+        <item>America</item>
+        <item>Mexico</item>
+    </string-array>
+
+    <string-array name="ans_4">
+        <item>Chocolate</item>
+        <item>Gum</item>
+        <item>Candy</item>
+    </string-array>
+
+    <string-array name="ans_5">
+        <item>Turnip</item>
+        <item>Pumpkin</item>
+        <item>Watermelon</item>
+    </string-array>
+
+    <string-array name="ans_6">
+        <item>Day of the dead</item>
+        <item>The spirit</item>
+        <item>The ghost night</item>
+    </string-array>
+
+
+<!--    GameComplete fragment-->
+    <string name="game_won_text">Game Won</string>
+    <string name="game_lost_text">Game Lost</string>
+    <string name="btn_lost_text">Try again</string>
+    <string name="btn_won_text">Next game</string>
 </resources>
