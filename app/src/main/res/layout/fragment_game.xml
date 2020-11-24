@@ -31,16 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        android:text="@{game.currentqs}"
         android:textColor="@color/game_text_color"
         android:textSize="@dimen/qs_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
-        tools:text="How did you celebrate halloween this year?"
-        android:text="@{game.currentqs}"
-        />
+        app:layout_constraintVertical_bias="0.32999998"
+        tools:text="How did you celebrate halloween this year?" />
 
     <RadioGroup
         android:id="@+id/ans_radio_group"

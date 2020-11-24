@@ -12,7 +12,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/detail_height"
+        android:layout_height="wrap_content"
         android:text="@string/ghost_pumpkin_detail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,6 +21,7 @@
         android:textSize="@dimen/detail_story_text_size"
         android:layout_marginStart="@dimen/detail_margin_start"
         android:layout_marginEnd="@dimen/detail_margin_start"
+        android:layout_marginBottom="@dimen/detail_margin_start"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

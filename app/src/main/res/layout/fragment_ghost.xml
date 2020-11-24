@@ -9,15 +9,26 @@
     android:background="@drawable/ghost"
     >
 
-    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim_detail"
+        />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:text="@string/hello_blank_fragment"
+        android:layout_height="wrap_content"
+        android:text="@string/ghost_floating_detail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/game_text_color"
+        android:textSize="@dimen/detail_story_text_size"
+        android:layout_marginStart="@dimen/detail_margin_start"
+        android:layout_marginEnd="@dimen/detail_margin_start"
+        android:layout_marginBottom="@dimen/detail_margin_start"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
