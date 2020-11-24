@@ -22,6 +22,7 @@
         <action
             android:id="@+id/action_gameFragment_to_gameCompleteFragment"
             app:destination="@id/gameCompleteFragment"
+            app:popUpTo="@id/gameFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
@@ -34,6 +35,27 @@
             app:argType="boolean" />
         <action
             android:id="@+id/action_gameCompleteFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/titleFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/zombieFragment"
+        android:name="com.example.ghosttheory.ZombieFragment"
+        android:label="ZombieFragment" />
+    <fragment
+        android:id="@+id/ghostFragment"
+        android:name="com.example.ghosttheory.GhostFragment"
+        android:label="GhostFragment" />
+    <fragment
+        android:id="@+id/skullFragment"
+        android:name="com.example.ghosttheory.SkullFragment"
+        android:label="SkullFragment" />
+    <fragment
+        android:id="@+id/witchFragment"
+        android:name="com.example.ghosttheory.WitchFragment"
+        android:label="WitchFragment" />
+    <fragment
+        android:id="@+id/pumpkinFragment"
+        android:name="com.example.ghosttheory.PumpkinFragment"
+        android:label="PumpkinFragment" />
 </navigation>

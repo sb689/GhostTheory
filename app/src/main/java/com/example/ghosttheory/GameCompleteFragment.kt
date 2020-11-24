@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.NavDirections
+import androidx.navigation.findNavController
 import com.example.ghosttheory.databinding.FragmentGameCompleteBinding
 
 
@@ -30,14 +32,19 @@ class GameCompleteFragment : Fragment() {
         val args = GameCompleteFragmentArgs.fromBundle(requireArguments())
         if(args.isWon) {
             gameStat = getString(R.string.game_won_text)
-            btnText = getString(R.string.game_won_text)
+            btnText = getString(R.string.btn_won_text)
         }
         else {
             gameStat = getString(R.string.game_lost_text)
-            btnText = getString(R.string.game_lost_text)
+            btnText = getString(R.string.btn_lost_text)
         }
 
         binding.gameStat = this
+
+        binding.btnRestart.setOnClickListener { view:View ->
+            view.findNavController().navigate(GameCompleteFragmentDirections.actionGameCompleteFragmentToGameFragment())
+        }
+
 
         return binding.root
 

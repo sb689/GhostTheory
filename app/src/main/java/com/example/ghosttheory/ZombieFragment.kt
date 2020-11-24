@@ -10,10 +10,10 @@ import android.view.ViewGroup
 
 /**
  * A simple [Fragment] subclass.
- * Use the [ZoombieFragment.newInstance] factory method to
+ * Use the [ZombieFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ZoombieFragment : Fragment() {
+class ZombieFragment : Fragment() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

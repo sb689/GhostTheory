@@ -42,6 +42,13 @@ class GameFragment : Fragment() {
         // Inflate the layout for this fragment
         val binding = DataBindingUtil.inflate<FragmentGameBinding>(inflater, R.layout.fragment_game, container, false )
         binding.game = this
+        // initialize qs array
+        questions = resources.getStringArray(R.array.questions).toList()
+        Log.d(TAG, "questions size = " + questions.size)
+        var random = Random(questions.size)
+        qsNo = Random(System.nanoTime()).nextInt(0, questions.size)
+        Log.d(TAG, "randomly choosen qsNo = $qsNo")
+
         setQuestion()
 
         binding.btnSubmit.setOnClickListener { view: View ->
@@ -81,10 +88,6 @@ class GameFragment : Fragment() {
 
     fun setQuestion()
     {
-        questions = resources.getStringArray(R.array.questions).toList()
-        Log.d(TAG, "questions size = " + questions.size)
-        var random = Random(questions.size)
-        qsNo = Random(System.nanoTime()).nextInt(0, questions.size)
 
         currentqs = questions.get(qsNo)
         Log.d(TAG, "currentqs = $currentqs")

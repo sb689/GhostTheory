@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ZoombieFragment"
-    android:background="@drawable/zoombie"
+    tools:context=".ZombieFragment"
+    android:background="@drawable/zombie"
     >
 
     <!-- TODO: Update blank fragment layout -->

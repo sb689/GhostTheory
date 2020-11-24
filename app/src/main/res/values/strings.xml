@@ -57,4 +57,13 @@
     <string name="game_lost_text">Game Lost</string>
     <string name="btn_lost_text">Try again</string>
     <string name="btn_won_text">Next game</string>
+
+<!--    NavDrawer Menu-->
+    <string name="ghost_pumpkin">Pumpkin Ghost</string>
+    <string name="ghost_witch">Witch</string>
+    <string name="ghost_zombie">Zombie</string>
+    <string name="ghost_floating">Floating Ghost</string>
+    <string name="ghost_burning_skull">Flaming Skull</string>
+
+    <string name="ghost_pumpkin_detail">Jack-o’-Lanterns are pumpkins with carved faces or designs that are lighted from within. Originally, they were hollowed out turnips and potatoes with a lighted candle inside. The use of these lanterns originated from an Irish folktale about Stingy Jack.</string>
 </resources>
