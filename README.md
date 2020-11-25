@@ -23,7 +23,7 @@
 
 
 ## Project Overview
-This Android application is a fun app developed in Kotlin. The theme of the application is the ghost characters that we get to see during Halloween eve. Users can play a short quiz on Halloween and can check detailed info about some of the cute ghosts.    
+This Android application is a fun app developed in Kotlin. The theme of the application is the ghost characters that we get to see during Halloween eve. Users can play a short quiz on Halloween and can check detailed info about some cute ghosts.    
 
 ## Features
 - The app is developed in Kotlin.
