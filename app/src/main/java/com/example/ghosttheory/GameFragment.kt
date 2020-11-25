@@ -45,7 +45,6 @@ class GameFragment : Fragment() {
         // initialize qs array
         questions = resources.getStringArray(R.array.questions).toList()
         Log.d(TAG, "questions size = " + questions.size)
-        var random = Random(questions.size)
         qsNo = Random(System.nanoTime()).nextInt(0, questions.size)
         Log.d(TAG, "randomly choosen qsNo = $qsNo")
 
@@ -71,12 +70,12 @@ class GameFragment : Fragment() {
                         setQuestion()
                         binding.invalidateAll()
                     } else {
-                        view?.findNavController()?.navigate(
+                        view.findNavController().navigate(
                             GameFragmentDirections.actionGameFragmentToGameCompleteFragment(true)
                         )
                     }
                 } else {
-                    view?.findNavController()?.navigate(
+                    view.findNavController().navigate(
                         GameFragmentDirections.actionGameFragmentToGameCompleteFragment(false)
                     )
                 }
