@@ -7,17 +7,17 @@
      <td>Ingredients of a recipe</td>
   </tr>
   <tr>
-    <td><img src="/screenshots/title.png" width=270 height=480></td>
-    <td><img src="/screenshots/nav_drawer.png" width=270 height=480></td>
-     <td><img src="/screenshots/game.png" width=270 height=480></td>
+    <td><img src="/screenshot/title.png" width=270 height=480></td>
+    <td><img src="/screenshot/nav_drawer.png" width=270 height=480></td>
+     <td><img src="/screenshot/game.png" width=270 height=480></td>
   </tr>
   <tr>
      <td>Detail of a procedure step</td>
      <td>App home screen widget</td>
   </tr>
   <tr>
-  	<td><img src="/screenshots/game_complete.png" width=270 height=480></td>
-     <td><img src="/screenshots/drawer_detail.png" width=270 height=480></td>
+  	<td><img src="/screenshot/game_complete.png" width=270 height=480></td>
+     <td><img src="/screenshot/drawer_detail.png" width=270 height=480></td>
   </tr>
 </table>
 
