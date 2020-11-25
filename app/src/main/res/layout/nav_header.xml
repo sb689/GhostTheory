@@ -5,18 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="192dp"
-    android:background="@android:color/black"
+
     >
 
     <ImageView
         android:id="@+id/iv_nav_header"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="192dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/nav_header_img"
-        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/night"
+        android:scaleType="centerCrop"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

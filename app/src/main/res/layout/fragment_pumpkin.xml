@@ -10,6 +10,13 @@
     android:background="@drawable/pumpkin_ghost"
     >
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim_detail"
+        />
+
     <TextView
         android:id="@+id/tv_pumpkin_detail"
         android:layout_width="match_parent"
