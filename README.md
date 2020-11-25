@@ -23,14 +23,14 @@
 
 
 ## Project Overview
-This Android application is a fun app developed in Kotlin. The theme of the application is the ghost charatcters that we get to see during the Halloween eve. User can play a short quiz on Halloween fun facts and can check detail info about some of the cute ghosts.    
+This Android application is a fun app developed in Kotlin. The theme of the application is the ghost characters that we get to see during Halloween eve. Users can play a short quiz on Halloween and can check detailed info about some of the cute ghosts.    
 
 ## Features
 - The app is developed in Kotlin.
-- Uses navigation graph and navigation drawer.
-- Uses safe arg.
+- Uses Navigation UI.
+- Uses Safe Args.
 - Uses transition animation through navigation graph actions.
 
-
-
+## Acknowledgement
+All the beautiful images of this app were collected from <a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a>. Special thanks to all the designers of Vecteezy.
 
