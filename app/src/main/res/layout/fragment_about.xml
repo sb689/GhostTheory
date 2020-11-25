@@ -9,7 +9,7 @@
     tools:context=".AboutFragment">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_about_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="32dp"

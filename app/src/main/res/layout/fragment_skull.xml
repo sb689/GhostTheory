@@ -15,6 +15,7 @@
         android:background="@drawable/scrim_detail"
         />
     <TextView
+        android:id="@+id/tv_skull_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ghost_skull_detail"
@@ -26,7 +27,7 @@
         android:layout_marginStart="@dimen/detail_margin_start"
         android:layout_marginEnd="@dimen/detail_margin_start"
         android:layout_marginBottom="@dimen/detail_margin_bottom"
-        android:autoLink="web"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

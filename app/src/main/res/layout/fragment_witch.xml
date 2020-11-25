@@ -16,6 +16,7 @@
         />
 
     <TextView
+        android:id="@+id/tv_witch_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ghost_witch_detail"
@@ -27,9 +28,9 @@
         android:layout_marginStart="@dimen/detail_margin_start"
         android:layout_marginEnd="@dimen/detail_margin_start"
         android:layout_marginBottom="@dimen/detail_margin_bottom"
-        android:autoLink="all"
-android:linksClickable="true"
+
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

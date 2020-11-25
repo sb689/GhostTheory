@@ -1,11 +1,13 @@
 package com.example.ghosttheory
 
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import androidx.databinding.DataBindingUtil
+import com.example.ghosttheory.databinding.FragmentSkullBinding
 
 
 /**
@@ -26,7 +28,11 @@ class SkullFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_skull, container, false)
+        val binding = DataBindingUtil.inflate<FragmentSkullBinding>(inflater, R.layout.fragment_skull, container, false)
+        binding.tvSkullDetail.movementMethod = LinkMovementMethod.getInstance()
+
+
+        return binding.root
     }
 
 

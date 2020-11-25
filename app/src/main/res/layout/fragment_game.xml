@@ -62,6 +62,7 @@
             android:textSize="@dimen/ans_opt_text_size"
             android:buttonTint="@color/radio_button_tint"
             android:text="@{game.answers[0]}"
+            android:checked="true"
 
             />
 
