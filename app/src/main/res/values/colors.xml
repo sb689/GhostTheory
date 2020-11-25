@@ -4,9 +4,9 @@
 <!--    <color name="colorPrimaryDark">#3700B3</color>-->
 <!--    <color name="colorAccent">#03DAC5</color>-->
 
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#0094cc</color>
+    <color name="colorPrimaryDark">#00669b</color>
+    <color name="colorAccent">#F24C11</color>
 
     <color name="radio_button_tint">@android:color/white</color>
     <color name="game_text_color">@android:color/white</color>
