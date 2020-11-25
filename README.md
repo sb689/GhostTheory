@@ -3,8 +3,8 @@
 <table>
   <tr>
     <td>Main Screen</td>
-     <td>Detail Screen of a recipe</td>
-     <td>Ingredients of a recipe</td>
+     <td>Navigation</td>
+     <td>Game</td>
   </tr>
   <tr>
     <td><img src="/screenshot/title.png" width=270 height=480></td>
@@ -12,8 +12,8 @@
      <td><img src="/screenshot/game.png" width=270 height=480></td>
   </tr>
   <tr>
-     <td>Detail of a procedure step</td>
-     <td>App home screen widget</td>
+     <td>Game result</td>
+     <td>Detail</td>
   </tr>
   <tr>
   	<td><img src="/screenshot/game_complete.png" width=270 height=480></td>
