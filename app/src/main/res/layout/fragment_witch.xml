@@ -26,8 +26,9 @@
         android:textSize="@dimen/detail_story_text_size"
         android:layout_marginStart="@dimen/detail_margin_start"
         android:layout_marginEnd="@dimen/detail_margin_start"
-        android:layout_marginBottom="@dimen/detail_margin_start"
-        android:autoLink="web"
+        android:layout_marginBottom="@dimen/detail_margin_bottom"
+        android:autoLink="all"
+android:linksClickable="true"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

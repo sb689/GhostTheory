@@ -21,4 +21,8 @@
         android:id="@+id/skullFragment"
         android:icon="@drawable/ic_face_24px"
         android:title="@string/ghost_burning_skull" />
+    <item
+        android:id="@+id/aboutFragment2"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/about" />
 </menu>

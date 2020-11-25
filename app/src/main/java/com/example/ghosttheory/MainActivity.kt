@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.NavController
+import androidx.navigation.NavDestination
 import androidx.navigation.findNavController
 import com.example.ghosttheory.databinding.ActivityMainBinding
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.AppBarConfiguration
+import java.util.concurrent.locks.Lock
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,12 +22,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         val navController = this.findNavController(R.id.nav_host_fragment_title)
-         drawerLayout = binding.layoutDrawer
+
+        drawerLayout = binding.layoutDrawer
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
         appBarConfig = AppBarConfiguration(navController.graph, drawerLayout)
         NavigationUI.setupWithNavController(binding.navView, navController)
 
         setupActionBarWithNavController(navController, appBarConfig)
+        navController.addOnDestinationChangedListener { nc: NavController, nd: NavDestination, args: Bundle? ->
+
+            if (nd.id == R.id.gameCompleteFragment || nd.id == R.id.gameFragment ) {
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED)
+            }
+            else {
+                drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED)
+            }
+        }
+
     }
 
     override fun onSupportNavigateUp(): Boolean {

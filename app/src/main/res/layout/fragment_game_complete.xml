@@ -30,6 +30,7 @@
     <TextView
         android:id="@+id/tv_game_result"
         style="@style/TextAppearance.AppCompat.Display3"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@{game_stat.gameStat}"

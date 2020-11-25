@@ -52,22 +52,26 @@
     </string-array>
 
 
-<!--    GameComplete fragment-->
+    <!--    GameComplete fragment-->
     <string name="game_won_text">Game Won</string>
-    <string name="game_lost_text">Game Lost</string>
+    <string name="game_lost_text">Game Over</string>
     <string name="btn_lost_text">Try again</string>
     <string name="btn_won_text">Next game</string>
 
-<!--    NavDrawer Menu-->
+    <!--    AboutFragment-->
+    <string name="about_details">This application is all about the Halloween characters we see around us. All the beautiful images were collected from <a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a>. Special thanks to all the designers of Vecteezy.</string>
+
+    <!--    NavDrawer Menu-->
     <string name="ghost_pumpkin">Pumpkin Ghost</string>
     <string name="ghost_witch">Witch</string>
     <string name="ghost_zombie">Zombie</string>
     <string name="ghost_floating">Floating Ghost</string>
-    <string name="ghost_burning_skull">Flaming Skull</string>
+    <string name="ghost_burning_skull">Blazing Skull</string>
+    <string name="about">About</string>
 
     <string name="ghost_pumpkin_detail">Jack-o’-Lanterns are pumpkins with carved faces or designs that are lighted from within. Originally, they were hollowed out turnips and potatoes with a lighted candle inside. The use of these lanterns originated from an Irish folktale about Stingy Jack.</string>
-<string name="ghost_skull_detail">Ghost Rider (Johnathon Blaze) is a fictional superhero appearing in American comic books published by Marvel Comics. For more details: https://en.wikipedia.org/wiki/Ghost_Rider_(Johnny_Blaze)</string>
-<string name="ghost_witch_detail">Witches were perceived as evil beings by early Christians in Europe, inspiring the iconic Halloween figure. Images of witches have appeared in various forms throughout history—from evil, wart-nosed women huddling over a cauldron of boiling liquid to hag-faced. Details: https://www.history.com/topics/folklore/history-of-witches</string>
-<string name="ghost_zombie_detail">A zombie is a fictional, undead, corporeal revenant created through the reanimation of a corpse. The term comes from Haitian folklore.</string>
-<string name="ghost_floating_detail">This is a DIY costume you can wear on Halloween. Find a white bed sheet, cover-up yourself, make two holes on the sheet, and you are ready for the party.</string>
+    <string name="ghost_skull_detail">Ghost Rider (Johnathon Blaze) is a fictional superhero appearing in American comic books published by Marvel Comics. Source: <a href="https://en.wikipedia.org/wiki/Ghost_Rider_(Johnny_Blaze)">Wikipedia</a></string>
+    <string name="ghost_witch_detail">Witches were perceived as evil beings by early Christians in Europe, inspiring the iconic Halloween figure. Images of witches have appeared in various forms throughout history—from evil, wart-nosed women huddling over a cauldron of boiling liquid to hag-faced. Source: <a href="https://www.history.com/topics/folklore/history-of-witches">History</a></string>
+    <string name="ghost_zombie_detail">A zombie is a fictional, undead, corporeal revenant created through the reanimation of a corpse. The term comes from Haitian folklore.</string>
+    <string name="ghost_floating_detail">This is a DIY costume you can wear on Halloween. Find a white bed sheet, cover-up yourself, make two holes on the sheet, and you are ready for the party.</string>
 </resources>

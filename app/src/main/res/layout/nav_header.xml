@@ -4,7 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="192dp">
+    android:layout_height="192dp"
+    android:background="@android:color/black"
+    >
 
     <ImageView
         android:id="@+id/iv_nav_header"
@@ -14,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/ic_face_24px"
+        app:srcCompat="@drawable/nav_header_img"
         android:scaleType="fitCenter"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
